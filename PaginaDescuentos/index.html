@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto descuentos con cupones</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Segundo Taller de js
+        </h1>
+        <section>
+            <h2>Calcula el precio a pagar con tus descuentos</h2>
+        </section>
+        <form>
+
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input type="number" id="InputPrice">
+
+            <label for="InputCoupon">Escribe el cupon de descuento</label>
+            <input type="number" id="InputCoupon">
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+                Calcular el precio con descuento
+            </button>
+        </form>
+        <p id="ResultP"></p>
+    </header>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
